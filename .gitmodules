@@ -25,3 +25,6 @@
 [submodule "sclf-templates"]
 	path = sclf-templates
 	url = https://github.com/AiotR/sclf-templates
+[submodule "sclf-quality"]
+	path = sclf-quality
+	url = https://github.com/AiotR/sclf-quality
