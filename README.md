@@ -2,55 +2,56 @@
   <img src="assets/banner.png" width="100%" alt="SCLF Platform Banner" />
 
   # 🌌 SCLF Meta-Workspace
-  ### El Ecosistema Integral de Robótica y Procesos de AiotR
+  ### AiotR-ren Robotika eta Prozesuen Ekosistema Integrala
   
-  [![Organization](https://img.shields.io/badge/Organization-AiotR-blue?style=for-the-badge&logo=github)](https://github.com/AiotR)
-  [![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)](https://github.com/AiotR/SCLF-Meta-Workspace)
-  [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
+  [![Erakundea](https://img.shields.io/badge/Erakundea-AiotR-blue?style=for-the-badge&logo=github)](https://github.com/AiotR)
+  [![Egoera](https://img.shields.io/badge/Egoera-Aktibo-success?style=for-the-badge)](https://github.com/AiotR/SCLF-Meta-Workspace)
+  [![Hizkuntza](https://img.shields.io/badge/Hizkuntza-Euskara-red?style=for-the-badge)](README.md)
+  [![Lizentzia](https://img.shields.io/badge/Lizentzia-MIT-yellow?style=for-the-badge)](LICENSE)
 
   ---
 </div>
 
-## 🚀 Vista General
+## 🚀 Ikuspegi Orokorra
 
-Este repositorio centraliza todos los componentes de la plataforma **SCLF** (Smart & Connected Logistics Factory). Utiliza **Git Submodules** para gestionar cada módulo de forma independiente pero manteniendo una visión global del sistema.
+Gordailu honek **SCLF** (Smart & Connected Logistics Factory) plataformako osagai guztiak zentralizatzen ditu. **Git Submodules** erabiltzen ditu modulu bakoitza era independentean kudeatzeko, sistemaren ikuspegi global bat mantenduz.
 
 ---
 
-## 🛠️ Módulos del Sistema
+## 🛠️ Sistemaren Moduluak
 
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h3>🤖 Robótica & Hardware</h3>
+      <h3>🤖 Robotika eta Hardwarea</h3>
       <ul>
-        <li><b><a href="sclf-gripper">🦾 SCLF Gripper</a></b><br/><i>Control de actuadores y pinzas robóticas.</i></li>
-        <li><b><a href="sclf-drone">🛸 SCLF Drone</a></b><br/><i>Sistemas aéreos no tripulados.</i></li>
-        <li><b><a href="sclf-quadruped-robot">🐕 SCLF Quadruped</a></b><br/><i>Plataforma robótica de cuatro patas.</i></li>
+        <li><b><a href="sclf-gripper">🦾 SCLF Gripper</a></b><br/><i>Aktuatzaileen eta matxarda robotikoen kontrola.</i></li>
+        <li><b><a href="sclf-drone">🛸 SCLF Drone</a></b><br/><i>Tripulatu gabeko aire-sistemak.</i></li>
+        <li><b><a href="sclf-quadruped-robot">🐕 SCLF Quadruped</a></b><br/><i>Lau hanka dituen plataforma robotikoa.</i></li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h3>📊 Gestión & Datos</h3>
+      <h3>📊 Kudeaketa eta Datuak</h3>
       <ul>
-        <li><b><a href="sclf-bom-registry">📋 BOM Registry</a></b><br/><i>Gestión de materiales y componentes.</i></li>
+        <li><b><a href="sclf-bom-registry">📋 BOM Erregistroa</a></b><br/><i>Materialen eta osagaien kudeaketa.</i></li>
         <li><b><a href="sclf-ikasmes">🏭 IkasMES</a></b><br/><i>Manufacturing Execution System.</i></li>
-        <li><b><a href="sclf-manufacturing-processes">⚙️ Manufacturing</a></b><br/><i>Definición de procesos industriales.</i></li>
+        <li><b><a href="sclf-manufacturing-processes">⚙️ Fabrikazio Prozesuak</a></b><br/><i>Industria prozesuen definizioa.</i></li>
       </ul>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>📚 Contenido & Educación</h3>
+      <h3>📚 Edukia eta Hezkuntza</h3>
       <ul>
-        <li><b><a href="sclf-educational-content">📖 Educational Content</a></b><br/><i>Material didáctico y tutoriales.</i></li>
-        <li><b><a href="sclf-tknika-project-hub">🏠 Project Hub</a></b><br/><i>Centro de coordinación de Tknika.</i></li>
+        <li><b><a href="sclf-educational-content">📖 Hezkuntza Edukia</a></b><br/><i>Material didaktikoa eta tutorialak.</i></li>
+        <li><b><a href="sclf-tknika-project-hub">🏠 Proiektu Hub-a</a></b><br/><i>Tknikako koordinazio zentroa.</i></li>
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h3>✅ Estándares & Calidad</h3>
+      <h3>✅ Estandarrak eta Kalitatea</h3>
       <ul>
-        <li><b><a href="sclf-quality">🛡️ Quality</a></b><br/><i>Control de calidad y normativas.</i></li>
-        <li><b><a href="sclf-templates">📄 Templates</a></b><br/><i>Plantillas de diseño y documentación.</i></li>
+        <li><b><a href="sclf-quality">🛡️ Kalitatea</a></b><br/><i>Kalitate kontrola eta araudiak.</i></li>
+        <li><b><a href="sclf-templates">📄 Txantiloiak</a></b><br/><i>Diseinu eta dokumentazio txantiloiak.</i></li>
       </ul>
     </td>
   </tr>
@@ -58,21 +59,21 @@ Este repositorio centraliza todos los componentes de la plataforma **SCLF** (Sma
 
 ---
 
-## 📥 Configuración del Entorno
+## 📥 Ingurunearen Konfigurazioa
 
-Para empezar a trabajar con todo el ecosistema, clona este repositorio utilizando el flag `--recursive`:
+Ekosistema osoarekin lanean hasteko, klonatu gordailu hau `--recursive` flag-a erabiliz:
 
 ```powershell
 git clone --recursive https://github.com/AiotR/SCLF-Meta-Workspace.git
 ```
 
-### Comandos Útiles
+### Komando Erabilgarriak
 
-*   **Actualizar todo:** `git submodule update --remote --merge`
-*   **Añadir módulo:** `git submodule add [URL] [nombre]`
+*   **Dena eguneratu:** `git submodule update --remote --merge`
+*   **Modulua gehitu:** `git submodule add [URL] [izena]`
 
 ---
 
 <div align="center">
-  <sub>Desarrollado con ❤️ por <b>Antigravity AI</b> para el equipo de <b>AiotR</b></sub>
+  <sub><b>Antigravity AI</b>-k maitasunez garatua <b>AiotR</b> lantaldearentzat</sub>
 </div>
