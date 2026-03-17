@@ -1,6 +1,6 @@
 # 🌌 SCLF Meta-Workspace
 
-![SCLF Platform Banner](assets/banner.png)
+![SCLF Platform Banner](assets/banner.webp)
 
 ### Tknika-ko Smart Collaborative Learning Factory-a
 
