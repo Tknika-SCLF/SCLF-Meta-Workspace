@@ -14,7 +14,7 @@
 
 ## 🚀 Ikuspegi Orokorra
 
-Gordailu honek **SCLF** (Smart Collaborative Learning Factory) plataformako osagai guztiak zentralizatzen ditu. **Git Submodules** erabiltzen ditu modulu bakoitza era independentean kudeatzeko, sistemaren ikuspegi global bat mantenduz.
+Gordailu honek **SCLF** (Smart Collaborative LEarning Factory) plataformako osagai guztiak zentralizatzen ditu. **Git Submodules** erabiltzen ditu modulu bakoitza era independentean kudeatzeko, sistemaren ikuspegi global bat mantenduz.
 
 ---
 
