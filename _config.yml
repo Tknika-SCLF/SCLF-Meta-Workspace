@@ -1,3 +1,6 @@
 title: SCLF Meta-Workspace
-description: AiotR-ren Robotika eta Prozesuen Ekosistema Integrala
+description: Tknika-ko Smart Collaborative Learning Factory-a
 theme: jekyll-theme-slate
+kramdown:
+  input: GFM
+  parse_block_html: true
