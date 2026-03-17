@@ -1,6 +1,7 @@
 title: SCLF Meta-Workspace
 description: Tknika-ko Smart Collaborative Learning Factory-a
-theme: jekyll-theme-slate
+remote_theme: pages-themes/minimal@v0.2.0
+google_fonts: ["Outfit", "Inter"]
 kramdown:
   input: GFM
   parse_block_html: true
