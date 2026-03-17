@@ -1,6 +1,0 @@
-title: SCLF Meta-Workspace
-description: Tknika-ko Smart Collaborative Learning Factory-a
-kramdown:
-  input: GFM
-  parse_block_html: true
-# No theme - we are using custom index.html for full control
