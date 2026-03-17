@@ -52,16 +52,21 @@
             line-height: 0;
             border-bottom: 6px solid var(--primary);
             overflow: hidden;
+            position: relative;
+            max-height: 300px;
         }
 
         .banner-container img {
             width: 100%;
-            height: auto;
+            height: 300px;
+            object-fit: cover;
             display: block;
+            mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+            -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
         }
 
         .container {
-            max-width: 1200px;
+            max-width: 1600px;
             margin: 0 auto;
             padding: 0 2rem;
             position: relative;
