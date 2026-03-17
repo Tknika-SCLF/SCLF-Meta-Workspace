@@ -49,5 +49,5 @@ git clone --recursive https://github.com/AiotR/SCLF-Meta-Workspace.git
 ---
 
 <div align="center">
-  <sub><b>Antigravity AI</b>-k maitasunez garatua <b>AiotR</b> lantaldearentzat</sub>
+  <sub><b>Antigravity AI</b>-k garatua <b>AiotR</b> lantaldearentzat</sub>
 </div>
