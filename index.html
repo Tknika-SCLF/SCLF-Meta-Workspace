@@ -106,17 +106,22 @@
 
         .section-title {
             font-size: 2rem;
-            margin-bottom: 2.5rem;
+            margin-bottom: 2rem;
             display: flex;
             align-items: center;
             gap: 15px;
             border-left: 8px solid var(--primary);
             padding-left: 15px;
+            max-width: 1600px;
         }
 
         .grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1rem;
+            margin-bottom: 5rem;
+            max-width: 1600px;
+        }
             gap: 2rem;
             margin-bottom: 5rem;
         }
@@ -247,7 +252,7 @@
         </header>
 
         <h2 class="section-title">🚀 Ikuspegi Orokorra</h2>
-        <div style="font-size: 1.2rem; max-width: 900px; margin-bottom: 5rem; color: var(--text-dim);">
+        <div style="font-size: 1.2rem; max-width: 1600px; margin-bottom: 5rem; color: var(--text-dim);">
             Gordailu honek SCLF ekosistemako modulu bakoitza era independentean kudeatzea ahalbidetzen du <b>Git
                 Submodules</b> teknologia erabiliz. Horrela, proiektu bakoitzak bere bizitza propioa du, baina hub
             honetatik sistemaren ikuspegi global bat eta integrazio osoa mantentzen da, <b
