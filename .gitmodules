@@ -1,30 +1,30 @@
 [submodule "sclf-tknika-project-hub"]
 	path = sclf-tknika-project-hub
-	url = https://github.com/AiotR/sclf-tknika-project-hub
+	url = https://github.com/Tknika-SCLF/sclf-tknika-project-hub
 [submodule "sclf-drone"]
 	path = sclf-drone
-	url = https://github.com/AiotR/sclf-drone
+	url = https://github.com/Tknika-SCLF/sclf-drone
 [submodule "sclf-quadruped-robot"]
 	path = sclf-quadruped-robot
-	url = https://github.com/AiotR/sclf-quadruped-robot
+	url = https://github.com/Tknika-SCLF/sclf-quadruped-robot
 [submodule "sclf-manufacturing-processes"]
 	path = sclf-manufacturing-processes
-	url = https://github.com/AiotR/sclf-manufacturing-processes
+	url = https://github.com/Tknika-SCLF/sclf-manufacturing-processes
 [submodule "sclf-bom-registry"]
 	path = sclf-bom-registry
-	url = https://github.com/AiotR/sclf-bom-registry
+	url = https://github.com/Tknika-SCLF/sclf-bom-registry
 [submodule "sclf-educational-content"]
 	path = sclf-educational-content
-	url = https://github.com/AiotR/sclf-educational-content
+	url = https://github.com/Tknika-SCLF/sclf-educational-content
 [submodule "sclf-templates"]
 	path = sclf-templates
-	url = https://github.com/AiotR/sclf-templates
+	url = https://github.com/Tknika-SCLF/sclf-templates
 [submodule "sclf-quality"]
 	path = sclf-quality
-	url = https://github.com/AiotR/sclf-quality
+	url = https://github.com/Tknika-SCLF/sclf-quality
 [submodule "sclf-gripper"]
 	path = sclf-gripper
-	url = https://github.com/AiotR/SCLF_Gripper_v1.0
+	url = https://github.com/Tknika-SCLF/sclf-gripper
 [submodule "sclf-ikasmes"]
 	path = sclf-ikasmes
-	url = https://github.com/AiotR/pruebaDocker
+	url = https://github.com/Tknika-SCLF/sclf-ikasmes
