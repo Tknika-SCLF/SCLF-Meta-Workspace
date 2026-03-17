@@ -25,17 +25,17 @@ Gordailu honek **SCLF** (Smart & Connected Logistics Factory) plataformako osaga
     <td width="50%" valign="top">
       <h3>🤖 Robotika eta Hardwarea</h3>
       <ul>
-        <li><b><a href="sclf-gripper">🦾 SCLF Gripper</a></b><br/><i>Aktuatzaileen eta matxarda robotikoen kontrola.</i></li>
-        <li><b><a href="sclf-drone">🛸 SCLF Drone</a></b><br/><i>Tripulatu gabeko aire-sistemak.</i></li>
-        <li><b><a href="sclf-quadruped-robot">🐕 SCLF Quadruped</a></b><br/><i>Lau hanka dituen plataforma robotikoa.</i></li>
+        <li><b><a href="https://github.com/AiotR/SCLF_Gripper_v1.0">🦾 SCLF Gripper</a></b><br/><i>Aktuatzaileen eta matxarda robotikoen kontrola.</i></li>
+        <li><b><a href="https://github.com/AiotR/sclf-drone">🛸 SCLF Drone</a></b><br/><i>Tripulatu gabeko aire-sistemak.</i></li>
+        <li><b><a href="https://github.com/AiotR/sclf-quadruped-robot">🐕 SCLF Quadruped</a></b><br/><i>Lau hanka dituen plataforma robotikoa.</i></li>
       </ul>
     </td>
     <td width="50%" valign="top">
       <h3>📊 Kudeaketa eta Datuak</h3>
       <ul>
-        <li><b><a href="sclf-bom-registry">📋 BOM Erregistroa</a></b><br/><i>Materialen eta osagaien kudeaketa.</i></li>
-        <li><b><a href="sclf-ikasmes">🏭 IkasMES</a></b><br/><i>Manufacturing Execution System.</i></li>
-        <li><b><a href="sclf-manufacturing-processes">⚙️ Fabrikazio Prozesuak</a></b><br/><i>Industria prozesuen definizioa.</i></li>
+        <li><b><a href="https://github.com/AiotR/sclf-bom-registry">📋 BOM Erregistroa</a></b><br/><i>Materialen eta osagaien kudeaketa.</i></li>
+        <li><b><a href="https://github.com/AiotR/pruebaDocker">🏭 IkasMES</a></b><br/><i>Manufacturing Execution System.</i></li>
+        <li><b><a href="https://github.com/AiotR/sclf-manufacturing-processes">⚙️ Fabrikazio Prozesuak</a></b><br/><i>Industria prozesuen definizioa.</i></li>
       </ul>
     </td>
   </tr>
@@ -43,15 +43,15 @@ Gordailu honek **SCLF** (Smart & Connected Logistics Factory) plataformako osaga
     <td width="50%" valign="top">
       <h3>📚 Edukia eta Hezkuntza</h3>
       <ul>
-        <li><b><a href="sclf-educational-content">📖 Hezkuntza Edukia</a></b><br/><i>Material didaktikoa eta tutorialak.</i></li>
-        <li><b><a href="sclf-tknika-project-hub">🏠 Proiektu Hub-a</a></b><br/><i>Tknikako koordinazio zentroa.</i></li>
+        <li><b><a href="https://github.com/AiotR/sclf-educational-content">📖 Hezkuntza Edukia</a></b><br/><i>Material didaktikoa eta tutorialak.</i></li>
+        <li><b><a href="https://github.com/AiotR/sclf-tknika-project-hub">🏠 Proiektu Hub-a</a></b><br/><i>Tknikako koordinazio zentroa.</i></li>
       </ul>
     </td>
     <td width="50%" valign="top">
       <h3>✅ Estandarrak eta Kalitatea</h3>
       <ul>
-        <li><b><a href="sclf-quality">🛡️ Kalitatea</a></b><br/><i>Kalitate kontrola eta araudiak.</i></li>
-        <li><b><a href="sclf-templates">📄 Txantiloiak</a></b><br/><i>Diseinu eta dokumentazio txantiloiak.</i></li>
+        <li><b><a href="https://github.com/AiotR/sclf-quality">🛡️ Kalitatea</a></b><br/><i>Kalitate kontrola eta araudiak.</i></li>
+        <li><b><a href="https://github.com/AiotR/sclf-templates">📄 Txantiloiak</a></b><br/><i>Diseinu eta dokumentazio txantiloiak.</i></li>
       </ul>
     </td>
   </tr>
