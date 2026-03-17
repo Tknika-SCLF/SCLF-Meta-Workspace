@@ -1,9 +1,6 @@
 [submodule "sclf-tknika-project-hub"]
 	path = sclf-tknika-project-hub
 	url = https://github.com/AiotR/sclf-tknika-project-hub
-[submodule "sclf-gripper"]
-	path = sclf-gripper
-	url = https://github.com/AiotR/sclf-gripper
 [submodule "sclf-drone"]
 	path = sclf-drone
 	url = https://github.com/AiotR/sclf-drone
@@ -16,9 +13,6 @@
 [submodule "sclf-bom-registry"]
 	path = sclf-bom-registry
 	url = https://github.com/AiotR/sclf-bom-registry
-[submodule "sclf-ikasmes"]
-	path = sclf-ikasmes
-	url = https://github.com/AiotR/sclf-ikasmes
 [submodule "sclf-educational-content"]
 	path = sclf-educational-content
 	url = https://github.com/AiotR/sclf-educational-content
@@ -28,3 +22,9 @@
 [submodule "sclf-quality"]
 	path = sclf-quality
 	url = https://github.com/AiotR/sclf-quality
+[submodule "sclf-gripper"]
+	path = sclf-gripper
+	url = https://github.com/AiotR/SCLF_Gripper_v1.0
+[submodule "sclf-ikasmes"]
+	path = sclf-ikasmes
+	url = https://github.com/AiotR/pruebaDocker
