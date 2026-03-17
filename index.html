@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="eu">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SCLF Meta-Workspace | Tknika</title>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Inter:wght@300;400;600&display=swap"
+        rel="stylesheet">
     <style>
         :root {
-            --primary: #c1d10c; /* Tknika Green */
+            --primary: #c1d10c;
+            /* Tknika Green */
             --primary-dark: #a8b60a;
             --bg-body: #FFFFFF;
             --bg-secondary: #f2f2f2;
@@ -17,8 +21,10 @@
             --shadow: rgba(0, 0, 0, 0.05);
         }
 
-        * { box-sizing: border-box; }
-        
+        * {
+            box-sizing: border-box;
+        }
+
         body {
             background-color: var(--bg-body);
             color: var(--text-main);
@@ -29,9 +35,17 @@
             line-height: 1.6;
         }
 
-        h1, h2, h3 { font-family: 'Outfit', sans-serif; color: var(--primary); font-weight: 700; }
-        
-        .accent-color { color: var(--primary); }
+        h1,
+        h2,
+        h3 {
+            font-family: 'Outfit', sans-serif;
+            color: var(--primary);
+            font-weight: 700;
+        }
+
+        .accent-color {
+            color: var(--primary);
+        }
 
         .banner-container {
             width: 100%;
@@ -47,7 +61,7 @@
         }
 
         .container {
-            max-width: 1600px;
+            max-width: 1200px;
             margin: 0 auto;
             padding: 0 2rem;
             position: relative;
@@ -68,14 +82,8 @@
         .hero p {
             font-size: 1.25rem;
             color: var(--text-dim);
-            max-width: 1600px;
+            max-width: 700px;
             margin: 0 auto 2rem;
-            text-align: left;
-        }
-
-        .hero {
-            text-align: left;
-            padding: 4rem 0;
         }
 
         .badges {
@@ -86,11 +94,14 @@
             margin-bottom: 4rem;
         }
 
-        .badges img { height: 28px; border-radius: 4px; }
+        .badges img {
+            height: 28px;
+            border-radius: 4px;
+        }
 
         .section-title {
             font-size: 2rem;
-            margin-bottom: 2rem;
+            margin-bottom: 2.5rem;
             display: flex;
             align-items: center;
             gap: 15px;
@@ -100,24 +111,16 @@
 
         .grid {
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 1rem;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
             margin-bottom: 5rem;
-        }
-
-        @media (max-width: 1200px) {
-            .grid { grid-template-columns: repeat(2, 1fr); }
-        }
-
-        @media (max-width: 768px) {
-            .grid { grid-template-columns: 1fr; }
         }
 
         .card {
             background: var(--bg-secondary);
             border: 1px solid var(--border);
             border-radius: 12px;
-            padding: 1.5rem;
+            padding: 2.5rem;
             transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
             position: relative;
         }
@@ -145,7 +148,9 @@
             margin: 0;
         }
 
-        .card li { margin-bottom: 1.5rem; }
+        .card li {
+            margin-bottom: 1.5rem;
+        }
 
         .card a {
             color: var(--text-main);
@@ -189,88 +194,121 @@
             font-size: 1rem;
         }
 
-        .footer b { color: var(--text-main); }
+        .footer b {
+            color: var(--text-main);
+        }
 
         @media (max-width: 768px) {
-            .hero h1 { font-size: 2.5rem; }
-            .container { padding: 0 1.5rem; }
-            .grid { grid-template-columns: 1fr; }
-            .banner { height: 200px; }
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .container {
+                padding: 0 1.5rem;
+            }
+
+            .grid {
+                grid-template-columns: 1fr;
+            }
+
+            .banner {
+                height: 200px;
+            }
         }
     </style>
 </head>
+
 <body>
 
     <div class="banner-container">
-        <img src="assets/banner.png" alt="SCLF Platform Banner">
+        <img src="assets/banner.webp" alt="SCLF Platform Banner">
     </div>
 
     <div class="container">
         <header class="hero">
             <h1>SCLF <span class="accent-color">Meta-Workspace</span></h1>
-            <p>Tknika-ko Smart Collaborative Learning Factory plataformako osagai guztiak zentralizatzen dituen ekosistema integrala.</p>
-            
+            <p>Tknika-ko Smart Collaborative Learning Factory plataformako osagai guztiak zentralizatzen dituen
+                ekosistema integrala.</p>
+
             <div class="badges">
-                <a href="https://github.com/AiotR"><img src="https://img.shields.io/badge/Erakundea-AiotR-1c1c1a?style=for-the-badge&logo=github" alt="AiotR"></a>
-                <a href="https://github.com/AiotR/SCLF-Meta-Workspace"><img src="https://img.shields.io/badge/Egoera-Aktibo-c1d10c?style=for-the-badge&labelColor=1c1c1a" alt="Aktibo"></a>
+                <a href="https://github.com/AiotR"><img
+                        src="https://img.shields.io/badge/Erakundea-AiotR-1c1c1a?style=for-the-badge&logo=github"
+                        alt="AiotR"></a>
+                <a href="https://github.com/AiotR/SCLF-Meta-Workspace"><img
+                        src="https://img.shields.io/badge/Egoera-Aktibo-c1d10c?style=for-the-badge&labelColor=1c1c1a"
+                        alt="Aktibo"></a>
                 <img src="https://img.shields.io/badge/Hizkuntza-Euskara-red?style=for-the-badge" alt="Euskara">
             </div>
         </header>
 
         <h2 class="section-title">🚀 Ikuspegi Orokorra</h2>
-        <div style="font-size: 1.2rem; max-width: 1600px; margin-bottom: 5rem; color: var(--text-dim);">
-            Gordailu honek SCLF ekosistemako modulu bakoitza era independentean kudeatzea ahalbidetzen du <b>Git Submodules</b> teknologia erabiliz. Horrela, proiektu bakoitzak bere bizitza propioa du, baina hub honetatik sistemen ikuspegi global bat eta integrazio osoa mantentzen da, <b style="color: var(--text-main);">Tknika</b> branding estandarrekin lerrokatuta.
+        <div style="font-size: 1.2rem; max-width: 900px; margin-bottom: 5rem; color: var(--text-dim);">
+            Gordailu honek SCLF ekosistemako modulu bakoitza era independentean kudeatzea ahalbidetzen du <b>Git
+                Submodules</b> teknologia erabiliz. Horrela, proiektu bakoitzak bere bizitza propioa du, baina hub
+            honetatik sistemaren ikuspegi global bat eta integrazio osoa mantentzen da, <b
+                style="color: var(--text-main);">Tknika</b> branding estandarrekin lerrokatuta.
         </div>
 
         <h2 class="section-title">🛠️ Sistemaren Moduluak</h2>
-        
+
         <div class="grid">
             <div class="card">
                 <h3>🤖 Produktuak</h3>
                 <ul>
-                    <li><a href="https://github.com/AiotR/SCLF_Gripper_v1.0">🦾 SCLF Gripper</a><span>Aktuatzaileen eta matxarda robotikoen kontrola.</span></li>
-                    <li><a href="https://github.com/AiotR/sclf-drone">🛸 SCLF Drone</a><span>Tripulatu gabeko aire-sistemak.</span></li>
-                    <li><a href="https://github.com/AiotR/sclf-quadruped-robot">🐕 SCLF Quadruped</a><span>Lau hanka dituen plataforma robotikoa.</span></li>
+                    <li><a href="https://github.com/AiotR/SCLF_Gripper_v1.0">🦾 SCLF Gripper</a><span>Aktuatzaileen eta
+                            matxarda robotikoen kontrola.</span></li>
+                    <li><a href="https://github.com/AiotR/sclf-drone">🛸 SCLF Drone</a><span>Tripulatu gabeko
+                            aire-sistemak.</span></li>
+                    <li><a href="https://github.com/AiotR/sclf-quadruped-robot">🐕 SCLF Quadruped</a><span>Lau hanka
+                            dituen plataforma robotikoa.</span></li>
                 </ul>
             </div>
 
             <div class="card">
                 <h3>📊 Prozesua</h3>
                 <ul>
-                    <li><a href="https://github.com/AiotR/sclf-bom-registry">📋 BOM Erregistroa</a><span>Materialen eta osagaien kudeaketa.</span></li>
-                    <li><a href="https://github.com/AiotR/pruebaDocker">🏭 IkasMES</a><span>Manufacturing Execution System (Prozesu kontrola).</span></li>
-                    <li><a href="https://github.com/AiotR/sclf-manufacturing-processes">⚙️ Fabrikazioa</a><span>Industria prozesuen definizioa.</span></li>
+                    <li><a href="https://github.com/AiotR/sclf-bom-registry">📋 BOM Erregistroa</a><span>Materialen eta
+                            osagaien kudeaketa.</span></li>
+                    <li><a href="https://github.com/AiotR/pruebaDocker">🏭 IkasMES</a><span>Manufacturing Execution
+                            System (Prozesu kontrola).</span></li>
+                    <li><a href="https://github.com/AiotR/sclf-manufacturing-processes">⚙️
+                            Fabrikazioa</a><span>Industria prozesuen definizioa.</span></li>
                 </ul>
             </div>
 
             <div class="card">
                 <h3>📚 Formakuntza</h3>
                 <ul>
-                    <li><a href="https://github.com/AiotR/sclf-educational-content">📖 Edukia</a><span>Material didaktikoa eta tutorialak.</span></li>
-                    <li><a href="https://github.com/AiotR/sclf-tknika-project-hub">🏠 Project Hub</a><span>Tknikako koordinazio zentroa.</span></li>
+                    <li><a href="https://github.com/AiotR/sclf-educational-content">📖 Edukia</a><span>Material
+                            didaktikoa eta tutorialak.</span></li>
+                    <li><a href="https://github.com/AiotR/sclf-tknika-project-hub">🏠 Project Hub</a><span>Tknikako
+                            koordinazio zentroa.</span></li>
                 </ul>
             </div>
 
             <div class="card">
                 <h3>✅ Kalitatea</h3>
                 <ul>
-                    <li><a href="https://github.com/AiotR/sclf-quality">🛡️ Kalitate Kontrola</a><span>Araudiak eta test-ak.</span></li>
-                    <li><a href="https://github.com/AiotR/sclf-templates">📄 Txantiloiak</a><span>Diseinu eta dokumentazio estandarrak.</span></li>
+                    <li><a href="https://github.com/AiotR/sclf-quality">🛡️ Kalitate Kontrola</a><span>Araudiak eta
+                            test-ak.</span></li>
+                    <li><a href="https://github.com/AiotR/sclf-templates">📄 Txantiloiak</a><span>Diseinu eta
+                            dokumentazio estandarrak.</span></li>
                 </ul>
             </div>
         </div>
 
         <h2 class="section-title">📥 Konfigurazioa</h2>
-        <p>Ekosistema osoa zure lokalean izateko, erabili komando hau:</p>
+        <p>Ekosistema osoa lokalean izateko, erabili komando hau:</p>
         <div class="config-box">
             git clone --recursive https://github.com/AiotR/SCLF-Meta-Workspace.git
         </div>
 
         <div class="footer">
-            <p><b>Tknikak</b>-k garatua</p>
+            <p><b>Tknikak</b> garatua</p>
             <p>© 2024 SCLF Ecosystem | <b>Tknika</b> - Robotics & Advanced Manufacturing</p>
         </div>
     </div>
 
 </body>
+
 </html>
