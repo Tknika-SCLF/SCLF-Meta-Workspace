@@ -22,6 +22,7 @@ Gordailu honek **SCLF** (Smart Collaborative Learning Factory) plataformako osag
 *   **[🦾 SCLF Gripper](https://github.com/Tknika-SCLF/SCLF_Gripper_v1.0)**: Aktuatzaileen eta matxarda robotikoen kontrola.
 *   **[🛸 SCLF Drone](https://github.com/Tknika-SCLF/sclf-drone)**: Tripulatu gabeko aire-sistemak.
 *   **[🐕 SCLF Quadruped](https://github.com/Tknika-SCLF/sclf-quadruped-robot)**: Lau hanka dituen plataforma robotikoa.
+*   **[📐 Diseinu Mekanikoa](https://github.com/Tknika-SCLF/sclf-mechanical-design)**: 3D ereduak eta planoen dokumentazioa.
 
 ### 📊 Prozesua
 *   **[📋 BOM Erregistroa](https://github.com/Tknika-SCLF/sclf-bom-registry)**: Materialen eta osagaien kudeaketa.
