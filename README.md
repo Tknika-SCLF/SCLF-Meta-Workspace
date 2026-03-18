@@ -19,14 +19,17 @@ Gordailu honek **SCLF** (Smart Collaborative Learning Factory) plataformako osag
 ## 🛠️ Sistemaren Moduluak
 
 ### 🤖 Produktuak
-*   **[🦾 SCLF Gripper](https://github.com/Tknika-SCLF/sclf-gripper)**: Aktuatzaileen eta matxarda robotikoen kontrola.
+*   **[🦾 SCLF Gripper](https://github.com/Tknika-SCLF/SCLF_Gripper_v1.0)**: Aktuatzaileen eta matxarda robotikoen kontrola.
 *   **[🛸 SCLF Drone](https://github.com/Tknika-SCLF/sclf-drone)**: Tripulatu gabeko aire-sistemak.
 *   **[🐕 SCLF Quadruped](https://github.com/Tknika-SCLF/sclf-quadruped-robot)**: Lau hanka dituen plataforma robotikoa.
 
 ### 📊 Prozesua
 *   **[📋 BOM Erregistroa](https://github.com/Tknika-SCLF/sclf-bom-registry)**: Materialen eta osagaien kudeaketa.
 *   **[🏭 IkasMES](https://github.com/Tknika-SCLF/sclf-ikasmes)**: Manufacturing Execution System (MES).
-*   **[⚙️ Fabrikazio Prozesuak](https://github.com/Tknika-SCLF/sclf-manufacturing-processes)**: Industria prozesuen definizioa.
+*   **[⚙️ Fabrikazioa](https://github.com/Tknika-SCLF/sclf-manufacturing-processes)**: Industria prozesuen definizioa.
+*   **[🦾 Robotika Mugikorra](https://github.com/Tknika-SCLF/sclf-mobile-robotics)**: Robot mugikorren integrazioa prozesuetan.
+*   **[👁️ Bisio Artifiziala](https://github.com/Tknika-SCLF/sclf-computer-vision)**: Irudi prozesamendua eta AI bidezko detekzioa.
+*   **[🧊 XPlanar Sistema](https://github.com/Tknika-SCLF/sclf-xplanar)**: Garraio sistema magnetiko adimentsua.
 
 ### 📚 Formakuntza
 *   **[📖 Hezkuntza Edukia](https://github.com/Tknika-SCLF/sclf-educational-content)**: Material didaktikoa eta tutorialak.
