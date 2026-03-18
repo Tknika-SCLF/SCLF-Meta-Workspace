@@ -37,3 +37,6 @@
 [submodule "sclf-xplanar"]
 	path = sclf-xplanar
 	url = https://github.com/Tknika-SCLF/sclf-xplanar
+[submodule "sclf-mechanical-design"]
+	path = sclf-mechanical-design
+	url = https://github.com/Tknika-SCLF/sclf-mechanical-design
