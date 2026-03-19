@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="eu">
 
 <head>
     <meta charset="UTF-8">
@@ -165,8 +165,7 @@
             padding: 2.5rem;
             border: 1px solid var(--border);
             transition: all 0.3s;
-            display: flex;
-            flex-direction: column;
+            display: flex; flex-direction: column;
         }
 
         .category-card:hover { transform: translateY(-10px); box-shadow: 0 20px 40px var(--shadow); border-color: var(--primary); }
@@ -177,14 +176,7 @@
         .repo-item { margin-bottom: 1.2rem; padding-bottom: 1rem; border-bottom: 1px solid #f1f1f1; }
         .repo-item:last-child { border-bottom: none; }
 
-        .repo-link {
-            font-weight: 600;
-            color: var(--secondary);
-            text-decoration: none;
-            transition: 0.2s;
-            display: block;
-        }
-
+        .repo-link { font-weight: 600; color: var(--secondary); text-decoration: none; transition: 0.2s; display: block; }
         .repo-link:hover { color: var(--primary); }
         .repo-desc { font-size: 0.9rem; color: var(--text-muted); display: block; margin-top: 4px; }
 
@@ -226,10 +218,10 @@
     <nav>
         <a href="#" class="nav-logo">SCLF <span>Hub</span></a>
         <ul class="nav-links">
-            <li><a href="#productos">Productos</a></li>
-            <li><a href="#procesos">Procesos</a></li>
-            <li><a href="#formacion">Formación</a></li>
-            <li><a href="#documentos">Documentos</a></li>
+            <li><a href="#productos">Produktuak</a></li>
+            <li><a href="#procesos">Prozesuak</a></li>
+            <li><a href="#formacion">Prestakuntza</a></li>
+            <li><a href="#documentos">Dokumentuak</a></li>
         </ul>
     </nav>
 
@@ -237,10 +229,10 @@
         <div class="hero-content">
             <span class="section-tag" style="color: white; opacity: 0.8;">Tknika - Smart Collaborative Learning Factory</span>
             <h1>SCLF <span style="color: var(--primary);">Meta-Workspace</span></h1>
-            <p>El portal centralizado para la ingeniería, fabricación y formación del ecosistema SCLF.</p>
+            <p>SCLF ekosistemaren ingeniaritza, fabrikazio eta prestakuntzarako atari zentralizatua.</p>
             <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
-                <a href="#mecanica" class="btn btn-primary">📦 Ver Modelos 3D</a>
-                <a href="MOODLE_COURSE_LINK_HERE" class="btn btn-moodle">🎓 Campus Virtual Moodle</a>
+                <a href="#mecanica" class="btn btn-primary">📦 Ikusi 3D Ereduak</a>
+                <a href="https://ikastaroak.tknika.eus" class="btn btn-moodle">🎓 Moodle Campus Birtuala</a>
             </div>
         </div>
     </header>
@@ -253,28 +245,28 @@
                 <div class="video-container">
                     <iframe src="https://www.youtube.com/embed/YOUTUBE_VIDEO_ID_HERE" title="SCLF Overview" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <p style="text-align: center; margin-top: 1.5rem; color: var(--text-muted);">🎥 Vídeo de introducción al ecosistema híbrido SCLF.</p>
+                <p style="text-align: center; margin-top: 1.5rem; color: var(--text-muted);">🎥 SCLF ekosistema hibridoko sarrera bideoa.</p>
             </div>
         </section>
 
         <!-- Mechanical / 3D Section -->
         <section id="mecanica" class="mecanica-flex">
             <div>
-                <span class="section-tag">Ingeniería Mecánica</span>
-                <h2 class="section-title">Diseño Multidisciplinar Interactivo</h2>
+                <span class="section-tag">Diseinu Mekanikoa</span>
+                <h2 class="section-title">Diseinu Multidisiplinar Interaktiboa</h2>
                 <p style="margin-bottom: 2rem; font-size: 1.1rem; color: var(--text-muted);">
-                    Visualiza los componentes del SCLF directamente en el navegador. Nuestra arquitectura híbrida permite inspeccionar modelos complejos sin necesidad de descargar archivos pesados de forma inmediata.
+                    Ikusi SCLF osagaiak nabigatzailean bertan. Gure arkitektura hibridoari esker, eredu konplexuak ikuskatu ditzakezu fitxategi astunak berehala deskargatu beharrik gabe.
                 </p>
                 <div style="display: flex; gap: 1rem;">
-                    <a href="GOOGLE_DRIVE_LINK_HERE" class="btn btn-primary" style="background: var(--secondary); color: white;">📂 Planos STEP/PDF</a>
-                    <a href="https://github.com/Tknika-SCLF/sclf-mechanical-design" class="btn-download" style="padding: 12px 24px; font-size: 1rem;">GitHub Repo</a>
+                    <a href="GOOGLE_DRIVE_LINK_HERE" class="btn btn-primary" style="background: var(--secondary); color: white;">📂 Planoak (STEP/PDF)</a>
+                    <a href="https://github.com/Tknika-SCLF/sclf-mechanical-design" class="btn-download" style="padding: 12px 24px; font-size: 1rem;">GitHub Gordailua</a>
                 </div>
             </div>
             <div>
                 <model-viewer src="assets/models/prototipo.glb" 
                               ios-src="" 
                               poster="" 
-                              alt="Prototipo SCLF" 
+                              alt="SCLF Prototipoa" 
                               shadow-intensity="1" 
                               camera-controls 
                               auto-rotate 
@@ -286,81 +278,81 @@
 
         <!-- Categories Section -->
         <section id="repositories">
-            <h2 class="section-title" style="text-align: center; margin-bottom: 4rem;">Módulos del Sistema</h2>
+            <h2 class="section-title" style="text-align: center; margin-bottom: 4rem;">Sistemaren Moduluak</h2>
             
             <div class="grid">
-                <!-- PRODUCTOS -->
+                <!-- PRODUKTUAK -->
                 <div class="category-card" id="productos">
-                    <h3 style="color: var(--primary);">🤖 Productos</h3>
+                    <h3 style="color: var(--primary);">🤖 Produktuak</h3>
                     <ul class="repo-list">
                         <li class="repo-item">
                             <a href="https://github.com/Tknika-SCLF/SCLF_Gripper_v1.0" class="repo-link">🦾 SCLF Gripper</a>
-                            <span class="repo-desc">Control de actuadores y pinzas robóticas.</span>
+                            <span class="repo-desc">Aktuatzaileen eta matxarda robotikoen kontrola.</span>
                         </li>
                         <li class="repo-item">
                             <a href="https://github.com/Tknika-SCLF/sclf-drone" class="repo-link">🛸 SCLF Drone</a>
-                            <span class="repo-desc">Sistemas aéreos no tripulados.</span>
+                            <span class="repo-desc">Tripulatu gabeko aire-sistemak.</span>
                         </li>
                         <li class="repo-item">
                             <a href="https://github.com/Tknika-SCLF/sclf-quadruped-robot" class="repo-link">🐕 SCLF Quadruped</a>
-                            <span class="repo-desc">Plataforma robótica de cuatro patas.</span>
+                            <span class="repo-desc">Lau hankako plataforma robotikoa.</span>
                         </li>
                     </ul>
                 </div>
 
-                <!-- PROCESOS -->
+                <!-- PROZESUAK -->
                 <div class="category-card" id="procesos">
-                    <h3 style="color: var(--secondary);">🏭 Procesos</h3>
+                    <h3 style="color: var(--secondary);">🏭 Prozesuak</h3>
                     <ul class="repo-list">
                         <li class="repo-item">
-                            <a href="https://github.com/Tknika-SCLF/sclf-bom-registry" class="repo-link">📋 Registro BOM</a>
-                            <span class="repo-desc">Gestión de materiales y componentes.</span>
+                            <a href="https://github.com/Tknika-SCLF/sclf-bom-registry" class="repo-link">📋 BOM Erregistroa</a>
+                            <span class="repo-desc">Materialen eta osagaien kudeaketa.</span>
                         </li>
                         <li class="repo-item">
                             <a href="https://github.com/Tknika-SCLF/sclf-ikasmes" class="repo-link">⚙️ IkasMES</a>
-                            <span class="repo-desc">Sistema de ejecución de manufactura.</span>
+                            <span class="repo-desc">Fabrikazio exekuzio sistema (MES).</span>
                         </li>
                         <li class="repo-item">
-                            <a href="https://github.com/Tknika-SCLF/sclf-mobile-robotics" class="repo-link">🦾 Robótica Móvil</a>
-                            <span class="repo-desc">Integración de AGVs y robots móviles.</span>
+                            <a href="https://github.com/Tknika-SCLF/sclf-mobile-robotics" class="repo-link">🦾 Robotika Mugikorra</a>
+                            <span class="repo-desc">AGV eta robot mugikorren integrazioa.</span>
                         </li>
                         <li class="repo-item">
-                            <a href="https://github.com/Tknika-SCLF/sclf-xplanar" class="repo-link">🧊 Sistema XPlanar</a>
-                            <span class="repo-desc">Transporte magnético inteligente.</span>
+                            <a href="https://github.com/Tknika-SCLF/sclf-xplanar" class="repo-link">🧊 XPlanar Sistema</a>
+                            <span class="repo-desc">Garraio magnetiko adimentsua.</span>
                         </li>
                     </ul>
                 </div>
 
-                <!-- FORMACION -->
+                <!-- PRESTAKUNTZA -->
                 <div class="category-card" id="formacion">
-                    <h3 style="color: var(--moodle);">🎓 Formación</h3>
+                    <h3 style="color: var(--moodle);">🎓 Prestakuntza</h3>
                     <ul class="repo-list">
                         <li class="repo-item">
-                            <a href="https://github.com/Tknika-SCLF/sclf-educational-content" class="repo-link">📖 Contenido Educativo</a>
-                            <span class="repo-desc">Material didáctico y tutoriales.</span>
+                            <a href="https://github.com/Tknika-SCLF/sclf-educational-content" class="repo-link">📖 Eduki Didaktikoa</a>
+                            <span class="repo-desc">Material didaktikoa eta tutorialak.</span>
                         </li>
                         <li class="repo-item">
-                            <a href="MOODLE_COURSE_LINK_HERE" class="repo-link" style="color: var(--moodle);">🔗 Campus Moodle</a>
-                            <span class="repo-desc">Certificaciones y cursos guiados.</span>
+                            <a href="https://ikastaroak.tknika.eus" class="repo-link" style="color: var(--moodle);">🔗 Moodle Campusa</a>
+                            <span class="repo-desc">Ziurtapenak eta ikastaro gidatuak.</span>
                         </li>
                         <li class="repo-item">
                             <a href="https://github.com/Tknika-SCLF/sclf-tknika-project-hub" class="repo-link">🏠 Project Hub</a>
-                            <span class="repo-desc">Centro de coordinación Tknika.</span>
+                            <span class="repo-desc">Tknika koordinazio zentroa.</span>
                         </li>
                     </ul>
                 </div>
 
-                <!-- DOCUMENTOS -->
+                <!-- DOKUMENTUAK -->
                 <div class="category-card" id="documentos">
-                    <h3 style="color: #5d5d5d;">📄 Documentos</h3>
+                    <h3 style="color: #5d5d5d;">📄 Dokumentuak</h3>
                     <ul class="repo-list">
                         <li class="repo-item">
-                            <a href="https://github.com/Tknika-SCLF/sclf-quality" class="repo-link">🛡️ Calidad y Normativa</a>
-                            <span class="repo-desc">Estándares y protocolos de ensayo.</span>
+                            <a href="https://github.com/Tknika-SCLF/sclf-quality" class="repo-link">🛡️ Kalitatea eta Araudia</a>
+                            <span class="repo-desc">Estandarrak eta saiakuntza protokoloak.</span>
                         </li>
                         <li class="repo-item">
-                            <a href="https://github.com/Tknika-SCLF/sclf-templates" class="repo-link">📄 Plantillas</a>
-                            <span class="repo-desc">Modelos de documentación técnica.</span>
+                            <a href="https://github.com/Tknika-SCLF/sclf-templates" class="repo-link">📄 Txantiloiak</a>
+                            <span class="repo-desc">Dokumentazio teknikorako modeloak.</span>
                         </li>
                     </ul>
                 </div>
@@ -371,7 +363,7 @@
 
     <footer>
         <div class="footer-logo">SCLF <span>Hub</span></div>
-        <p>Desarrollado por el equipo <b>AiotR</b> de Tknika</p>
+        <p>Tknikako <b>AiotR</b> taldeak garatua</p>
         <p class="footer-text">© 2026 SCLF Ecosystem | Robotics & Advanced Manufacturing</p>
     </footer>
 
