@@ -1,6 +1,6 @@
 # 🌌 SCLF Meta-Workspace
 
-![SCLF Platform Banner](assets/banner.webp)
+![SCLF Platform Banner](assets/img/banner.webp)
 
 ### Tknika's Smart Collaborative Learning Factory Hub
 
@@ -10,42 +10,41 @@
 
 ---
 
-## 🏗️ Filosofía de "Ecosistema Híbrido" (V2)
+## 🏗️ Filosofía de "Ecosistema Híbrido" (v2)
 
-Este repositorio ha sido reestructurado para funcionar como un **Hub centralizado** de ingeniería. Siguiendo la estrategia de alto rendimiento para proyectos multidisciplinares:
+Este repositorio centraliza los recursos del proyecto **SCLF (Smart Collaborative Learning Factory)**. Siguiendo una estrategia híbrida para optimizar el rendimiento y la escalabilidad:
 
-1.  **GitHub (El Cerebro)**: Aloja el código fuente, esquemas ligeros, documentación en Markdown y este portal web (GitHub Pages). Se mantiene por debajo de **200MB**.
-2.  **Visores Nativos**: Los modelos 3D se visualizan directamente en el navegador usando `.glb` optimizados y Google `<model-viewer>`.
-3.  **Almacenamiento Externo (El Músculo)**: Los archivos pesados de ingeniería (planos STEP, modelos CAD completos, vídeos 4K, firmwares binarios) se gestionan mediante enlaces externos a **Google Drive / Sharepoint**.
-4.  **Formación**: Toda la certificación y el seguimiento pedagógico se centraliza en la plataforma **Moodle** de Tknika.
-
----
-
-## 🚀 Estructura del Repositorio
-
-- `index.html`: Portal web principal (Landing Page).
-- `assets/`:
-  - `img/`: Imágenes optimizadas.
-  - `models/`: Modelos 3D en formato `.glb` (optimización Draco recomendada).
-- `sclf-*`: Submódulos Git con el código fuente de cada componente.
+1.  **Hub de GitHub**: Mantenemos el repositorio ligero (<200MB) para alojar código, esquemas electrónicos y este portal web.
+2.  **Visualización 3D**: Integración nativa con Google `<model-viewer>` para inspeccionar prototipos directamente en la web.
+3.  **Almacenamiento Externo**: Los archivos pesados de ingeniería (planos STEP, modelos CAD completos, vídeos 4K) se sirven mediante enlaces a almacenamiento externo (Google Drive/Sharepoint).
+4.  **Formación Centralizada**: El seguimiento académico y la certificación se realizan a través de la plataforma **Moodle** de Tknika.
 
 ---
 
-## 🛠️ Sistemaren Moduluak
+## 🚀 Organización del Proyecto
 
-### 🤖 Produktuak
-*   **[🦾 SCLF Gripper](https://github.com/Tknika-SCLF/SCLF_Gripper_v1.0)**: Aktuatzaileen eta matxarda robotikoen kontrola.
-*   **[🛸 SCLF Drone](https://github.com/Tknika-SCLF/sclf-drone)**: Tripulatu gabeko aire-sistemak.
-*   **[🐕 SCLF Quadruped](https://github.com/Tknika-SCLF/sclf-quadruped-robot)**: Lau hanka dituen plataforma robotikoa.
-*   **[📐 Diseinu Mekanikoa](https://github.com/Tknika-SCLF/sclf-mechanical-design)**: 3D ereduak eta planoen dokumentazioa.
+El ecosistema se divide en cuatro áreas principales:
 
-... *(Ver más en la web)*
+*   **🤖 Productos**: SCLF Gripper, Drone, Robot Cuadrúpedo.
+*   **🏭 Procesos**: BOM Registry, IkasMES, Robótica Móvil, XPlanar.
+*   **🎓 Formación**: Moodle, Contenido Educativo, Project Hub.
+*   **📄 Documentos**: Gestión de Calidad, Plantillas de documentación.
+
+---
+
+## 🛠️ Estructura del Repositorio
+
+*   `index.html`: Portal web principal de acceso público.
+*   `assets/`:
+    *   `img/`: Imágenes y banners optimizados.
+    *   `models/`: Modelos `.glb` optimizados para visualización web.
+*   `sclf-*`: Submódulos Git que apuntan a los repositorios de código de cada componente.
 
 ---
 
 ## 📥 Clonación del Entorno
 
-Para trabajar con todo el ecosistema localmente:
+Para obtener el espacio de trabajo meta con todos sus módulos vinculados:
 
 ```powershell
 git clone --recursive https://github.com/Tknika-SCLF/SCLF-Meta-Workspace.git
@@ -54,5 +53,5 @@ git clone --recursive https://github.com/Tknika-SCLF/SCLF-Meta-Workspace.git
 ---
 
 <div align="center">
-  <sub>Desarrollado por <b>Antigravity AI</b> para el equipo <b>AiotR</b> de Tknika</sub>
+  <sub>Desarrollado por el equipo <b>AiotR</b> de Tknika para el ecosistema <b>SCLF</b></sub>
 </div>
