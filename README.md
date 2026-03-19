@@ -2,7 +2,7 @@
 
 ![SCLF Platform Banner](assets/banner.webp)
 
-### Tknika-ko Smart Collaborative Learning Factory-a
+### Tknika's Smart Collaborative Learning Factory Hub
 
 [![Erakundea](https://img.shields.io/badge/Erakundea-Tknika--SCLF-1c1c1a?style=flat-square&logo=github)](https://github.com/Tknika-SCLF)
 [![Egoera](https://img.shields.io/badge/Egoera-Aktibo-c1d10c?style=flat-square&labelColor=1c1c1a)](https://github.com/Tknika-SCLF/SCLF-Meta-Workspace)
@@ -10,9 +10,24 @@
 
 ---
 
-## 🚀 Ikuspegi Orokorra
+## 🏗️ Filosofía de "Ecosistema Híbrido" (V2)
 
-Gordailu honek **SCLF** (Smart Collaborative Learning Factory) plataformako osagai guztiak zentralizatzen ditu, **Tknika Branding** ofizialpeko diseinu-sistemari jarraituz. **Git Submodules** erabiltzen ditu modulu bakoitza era independentean kudeatzeko.
+Este repositorio ha sido reestructurado para funcionar como un **Hub centralizado** de ingeniería. Siguiendo la estrategia de alto rendimiento para proyectos multidisciplinares:
+
+1.  **GitHub (El Cerebro)**: Aloja el código fuente, esquemas ligeros, documentación en Markdown y este portal web (GitHub Pages). Se mantiene por debajo de **200MB**.
+2.  **Visores Nativos**: Los modelos 3D se visualizan directamente en el navegador usando `.glb` optimizados y Google `<model-viewer>`.
+3.  **Almacenamiento Externo (El Músculo)**: Los archivos pesados de ingeniería (planos STEP, modelos CAD completos, vídeos 4K, firmwares binarios) se gestionan mediante enlaces externos a **Google Drive / Sharepoint**.
+4.  **Formación**: Toda la certificación y el seguimiento pedagógico se centraliza en la plataforma **Moodle** de Tknika.
+
+---
+
+## 🚀 Estructura del Repositorio
+
+- `index.html`: Portal web principal (Landing Page).
+- `assets/`:
+  - `img/`: Imágenes optimizadas.
+  - `models/`: Modelos 3D en formato `.glb` (optimización Draco recomendada).
+- `sclf-*`: Submódulos Git con el código fuente de cada componente.
 
 ---
 
@@ -24,27 +39,13 @@ Gordailu honek **SCLF** (Smart Collaborative Learning Factory) plataformako osag
 *   **[🐕 SCLF Quadruped](https://github.com/Tknika-SCLF/sclf-quadruped-robot)**: Lau hanka dituen plataforma robotikoa.
 *   **[📐 Diseinu Mekanikoa](https://github.com/Tknika-SCLF/sclf-mechanical-design)**: 3D ereduak eta planoen dokumentazioa.
 
-### 📊 Prozesua
-*   **[📋 BOM Erregistroa](https://github.com/Tknika-SCLF/sclf-bom-registry)**: Materialen eta osagaien kudeaketa.
-*   **[🏭 IkasMES](https://github.com/Tknika-SCLF/sclf-ikasmes)**: Manufacturing Execution System (MES).
-*   **[⚙️ Fabrikazioa](https://github.com/Tknika-SCLF/sclf-manufacturing-processes)**: Industria prozesuen definizioa.
-*   **[🦾 Robotika Mugikorra](https://github.com/Tknika-SCLF/sclf-mobile-robotics)**: Robot mugikorren integrazioa prozesuetan.
-*   **[👁️ Bisio Artifiziala](https://github.com/Tknika-SCLF/sclf-computer-vision)**: Irudi prozesamendua eta AI bidezko detekzioa.
-*   **[🧊 XPlanar Sistema](https://github.com/Tknika-SCLF/sclf-xplanar)**: Garraio sistema magnetiko adimentsua.
-
-### 📚 Formakuntza
-*   **[📖 Hezkuntza Edukia](https://github.com/Tknika-SCLF/sclf-educational-content)**: Material didaktikoa eta tutorialak.
-*   **[🏠 Proiektu Hub-a](https://github.com/Tknika-SCLF/sclf-tknika-project-hub)**: Tknikako koordinazio zentroa.
-
-### ✅ Estandarrak
-*   **[🛡️ Kalitatea](https://github.com/Tknika-SCLF/sclf-quality)**: Kalitate kontrola eta araudiak.
-*   **[📄 Txantiloiak](https://github.com/Tknika-SCLF/sclf-templates)**: Diseinu eta dokumentazio txantiloiak.
+... *(Ver más en la web)*
 
 ---
 
-## 📥 Ingurunearen Konfigurazioa
+## 📥 Clonación del Entorno
 
-Ekosistema osoarekin lanean hasteko, klonatu gordailu hau `--recursive` flag-a erabiliz:
+Para trabajar con todo el ecosistema localmente:
 
 ```powershell
 git clone --recursive https://github.com/Tknika-SCLF/SCLF-Meta-Workspace.git
@@ -53,5 +54,5 @@ git clone --recursive https://github.com/Tknika-SCLF/SCLF-Meta-Workspace.git
 ---
 
 <div align="center">
-  <sub><b>Antigravity AI</b>-k garatua <b>AiotR</b> lantaldearentzat</sub>
+  <sub>Desarrollado por <b>Antigravity AI</b> para el equipo <b>AiotR</b> de Tknika</sub>
 </div>

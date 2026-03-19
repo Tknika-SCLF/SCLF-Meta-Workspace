@@ -8,6 +8,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Inter:wght@300;400;600&display=swap"
         rel="stylesheet">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
     <style>
         :root {
             --primary: #c1d10c;
@@ -230,6 +231,75 @@
                 height: 200px;
             }
         }
+
+        /* NEW COMPONENTS */
+        .btn-moodle {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: #009688; /* Moodle Teal */
+            color: white !important;
+            padding: 12px 24px;
+            border-radius: 50px;
+            font-weight: 700;
+            text-decoration: none;
+            transition: all 0.3s;
+            border: none !important;
+            box-shadow: 0 4px 15px rgba(0, 150, 136, 0.3);
+            margin-top: 1rem;
+        }
+
+        .btn-moodle:hover {
+            background: #00796b;
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(0, 150, 136, 0.4);
+        }
+
+        .video-container {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto 4rem;
+            aspect-ratio: 16 / 9;
+            border-radius: 16px;
+            overflow: hidden;
+            background: #000;
+            box-shadow: 0 20px 40px var(--shadow);
+            border: 4px solid var(--border);
+        }
+
+        .video-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        model-viewer {
+            width: 100%;
+            height: 500px;
+            background-color: #f9f9f9;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            margin: 1rem 0;
+        }
+
+        .btn-download {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--text-main);
+            color: white !important;
+            padding: 8px 16px;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            margin-top: 10px;
+            border-bottom: none !important;
+            transition: 0.2s;
+        }
+
+        .btn-download:hover {
+            background: var(--primary);
+            color: var(--text-main) !important;
+        }
     </style>
 </head>
 
@@ -254,7 +324,15 @@
                         alt="Aktibo"></a>
                 <img src="https://img.shields.io/badge/Hizkuntza-Euskara-red?style=for-the-badge" alt="Euskara">
             </div>
+
+            <a href="MOODLE_COURSE_LINK_HERE" class="btn-moodle">
+                🎓 Acceder al Curso de Formación (Moodle)
+            </a>
         </header>
+
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/YOUTUBE_VIDEO_ID_HERE" title="SCLF Introduction Video" allowfullscreen></iframe>
+        </div>
 
         <h2 class="section-title">🚀 Ikuspegi Orokorra</h2>
         <div style="font-size: 1.2rem; max-width: 1600px; margin-bottom: 5rem; color: var(--text-dim);">
@@ -276,7 +354,14 @@
                             aire-sistemak.</span></li>
                     <li><a href="https://github.com/Tknika-SCLF/sclf-quadruped-robot">🐕 SCLF Quadruped</a><span>Lau hanka
                             dituen plataforma robotikoa.</span></li>
-                    <li><a href="https://github.com/Tknika-SCLF/sclf-mechanical-design">📐 Diseinu Mekanikoa</a><span>3D ereduak eta planoen dokumentazioa.</span></li>
+                    <li><a href="https://github.com/Tknika-SCLF/sclf-mechanical-design">📐 Diseinu Mekanikoa</a><span>3D ereduak eta planoen dokumentazioa.</span>
+                        <model-viewer src="assets/models/prototipo.glb" 
+                                      alt="SCLF Prototype 3D Model" 
+                                      auto-rotate camera-controls 
+                                      shadow-intensity="1">
+                        </model-viewer>
+                        <a href="GOOGLE_DRIVE_LINK_HERE" class="btn-download">📂 Descargar Planos (STEP/PDF)</a>
+                    </li>
                 </ul>
             </div>
 
@@ -305,6 +390,7 @@
                             didaktikoa eta tutorialak.</span></li>
                     <li><a href="https://github.com/Tknika-SCLF/sclf-tknika-project-hub">🏠 Project Hub</a><span>Tknikako
                             koordinazio zentroa.</span></li>
+                    <li><a href="MOODLE_COURSE_LINK_HERE" style="border-bottom-color: #009688; color: #009688;">🎓 Formación Moodle</a><span>Certificación y cursos detallados.</span></li>
                 </ul>
             </div>
 
