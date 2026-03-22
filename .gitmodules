@@ -40,3 +40,6 @@
 [submodule "sclf-mechanical-design"]
 	path = sclf-mechanical-design
 	url = https://github.com/Tknika-SCLF/sclf-mechanical-design
+[submodule "community/ai/stm32ai-modelzoo"]
+	path = community/ai/stm32ai-modelzoo
+	url = https://github.com/STMicroelectronics/stm32ai-modelzoo
