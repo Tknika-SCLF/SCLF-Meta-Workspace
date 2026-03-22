@@ -24,7 +24,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: false
+          submodules: false  # Explicitly disabled to avoid private repo clone errors
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
