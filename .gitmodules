@@ -24,7 +24,7 @@
 	url = https://github.com/Tknika-SCLF/sclf-quality
 [submodule "sclf-gripper"]
 	path = sclf-gripper
-	url = https://github.com/Tknika-SCLF/SCLF_Gripper_v1.0
+	url = https://github.com/Tknika-SCLF/SCLF_Gripper
 [submodule "sclf-ikasmes"]
 	path = sclf-ikasmes
 	url = https://github.com/Tknika-SCLF/sclf-ikasmes
