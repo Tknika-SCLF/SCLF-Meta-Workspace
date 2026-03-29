@@ -1,48 +1,48 @@
 # 🌌 SCLF Meta-Workspace
 
-![SCLF Platform](assets/banner.webp)
+![SCLF plataforma](assets/banner.webp)
 
 Tknika — Smart Collaborative Learning Factory
 
 ---
 
-## 🌍 Select language / Hautatu hizkuntza / Selecciona idioma
+## 🌍 Hautatu hizkuntza / Selecciona idioma / Select language
 
-- 🇬🇧 [English](README.en.md)  
 - 🇪🇺 [Euskara](README.eu.md)  
 - 🇪🇸 [Español](README.es.md)  
+- 🇬🇧 [English](README.en.md)  
 
 ---
 
-## 🎯 What is this?
+## 🎯 Zer da hau?
 
-This repository is the **entry point (hub) of the SCLF ecosystem**.
+Repositorio hau **SCLF ekosistemaren sarrera-puntua (hub-a)** da.
 
-👉 It does NOT contain core code  
-👉 It does NOT use submodules  
+👉 Ez dauka kode nagusirik  
+👉 Ez ditu submoduluak erabiltzen  
 
-Its purpose is to:
-- centralize access to modules  
-- define the project structure  
-- provide a single entry point  
-
----
-
-## 🧠 Philosophy
-
-SCLF is:
-- modular  
-- scalable  
-- independent  
-
-👉 Each module is developed in its own repository  
-👉 There is no monolithic workspace  
+Helburua:
+- modulu guztiak zentralizatzea  
+- egitura azaltzea  
+- sarbide bakarra eskaintzea  
 
 ---
 
-## 🛠️ System Modules
+## 🧠 Filosofia
 
-### 🤖 Products
+SCLF sistema:
+- modularra  
+- eskalagarria  
+- independentea  
+
+👉 Modulu bakoitza repo propioan garatzen da  
+👉 Ez dago workspace monolitikorik  
+
+---
+
+## 🛠️ Sistemaren moduluak
+
+### 🤖 Produktuak
 
 - 🦾 [SCLF Gripper](https://github.com/Tknika-SCLF/sclf-gripper)  
 - 🛸 [SCLF Drone](https://github.com/Tknika-SCLF/sclf-drone)  
@@ -50,7 +50,7 @@ SCLF is:
 
 ---
 
-### 📊 Process
+### 📊 Prozesua
 
 - 📋 [BOM Registry](https://github.com/Tknika-SCLF/sclf-bom-registry)  
 - 🏭 [IkasMES](https://github.com/Tknika-SCLF/sclf-ikasmes)  
@@ -61,23 +61,23 @@ SCLF is:
 
 ---
 
-### 📚 Education
+### 📚 Formazioa
 
 - 📖 [Educational Content](https://github.com/Tknika-SCLF/sclf-educational-content)  
 - 🏠 [Project Hub](https://github.com/Tknika-SCLF/sclf-tknika-project-hub)  
 
 ---
 
-### ✅ Standards
+### ✅ Estandarrak
 
 - 🛡️ [Quality](https://github.com/Tknika-SCLF/sclf-quality)  
 - 📄 [Templates](https://github.com/Tknika-SCLF/sclf-templates)  
 
 ---
 
-## 🚀 Getting started
+## 🚀 Nola hasi
 
-To learn how to start working, check our **[🌟 Onboarding Guide](docs/onboarding.en.md)**:
+Lan egiteko modua ikusteko, irakurri gure **[🌟 Onboarding Gida](docs/onboarding.eu.md)**:
 
 ```bash
 mkdir SCLF
@@ -86,5 +86,5 @@ cd SCLF
 git clone git@github.com:Tknika-SCLF/sclf-drone.git
 git clone git@github.com:Tknika-SCLF/sclf-gripper.git
 git clone git@github.com:Tknika-SCLF/sclf-computer-vision.git
-# add the repositories you need
+# gehitu behar dituzun repoak
 ```
