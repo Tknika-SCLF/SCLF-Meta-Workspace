@@ -1,56 +1,90 @@
 # 🌌 SCLF Meta-Workspace
 
-![Banner de la plataforma SCLF](assets/banner.webp)
+![Plataforma SCLF](assets/banner.webp)
 
-### Smart Collaborative Learning Factory de Tknika
-
-[![Organización](https://img.shields.io/badge/Organización-Tknika--SCLF-1c1c1a?style=flat-square&logo=github)](https://github.com/Tknika-SCLF)
-[![Estado](https://img.shields.io/badge/Estado-Activo-c1d10c?style=flat-square&labelColor=1c1c1a)](https://github.com/Tknika-SCLF/SCLF-Meta-Workspace)
-[![Sitio Web](https://img.shields.io/badge/Sitio_Web-Ver-c1d10c?style=flat-square&labelColor=1c1c1a)](https://tknika-sclf.github.io/SCLF-Meta-Workspace/)
+Tknika — Smart Collaborative Learning Factory
 
 ---
 
-## 🚀 Visión General
+## 🌍 Selecciona idioma / Select language / Hautatu hizkuntza
 
-Este repositorio centraliza todos los componentes de la plataforma **SCLF** (Smart Collaborative Learning Factory), siguiendo el sistema de diseño oficial de **Tknika Branding**. Utiliza **Git Submodules** para gestionar cada módulo de forma independiente.
+- 🇪🇸 [Español](README.es.md)  
+- 🇪🇺 [Euskara](README.eu.md)  
+- 🇬🇧 [English](README.en.md)  
 
 ---
 
-## 🛠️ Módulos del Sistema
+## 🎯 ¿Qué es esto?
+
+Este repositorio es el **punto de entrada (hub) del ecosistema SCLF**.
+
+👉 No contiene código principal  
+👉 No utiliza submódulos  
+
+Su objetivo es:
+- centralizar los módulos  
+- mostrar la estructura del proyecto  
+- servir como punto de acceso único  
+
+---
+
+## 🧠 Filosofía
+
+SCLF es un sistema:
+- modular  
+- escalable  
+- independiente  
+
+👉 Cada módulo se desarrolla en su propio repositorio  
+👉 No existe un workspace monolítico  
+
+---
+
+## 🛠️ Módulos del sistema
 
 ### 🤖 Productos
-*   **[🦾 SCLF Gripper](https://github.com/Tknika-SCLF/SCLF_Gripper_v1.0)**: Control de actuadores y manipuladores robóticos.
-*   **[🛸 SCLF Drone](https://github.com/Tknika-SCLF/sclf-drone)**: Sistemas aéreos no tripulados.
-*   **[🐕 SCLF Quadruped](https://github.com/Tknika-SCLF/sclf-quadruped-robot)**: Plataforma robótica cuadrúpeda.
+
+- 🦾 [SCLF Gripper](https://github.com/Tknika-SCLF/sclf-gripper)  
+- 🛸 [SCLF Drone](https://github.com/Tknika-SCLF/sclf-drone)  
+- 🐕 [SCLF Quadruped](https://github.com/Tknika-SCLF/sclf-quadruped-robot)  
+
+---
 
 ### 📊 Proceso
-*   **[📋 Registro BOM](https://github.com/Tknika-SCLF/sclf-bom-registry)**: Gestión de materiales y componentes.
-*   **[🏭 IkasMES](https://github.com/Tknika-SCLF/sclf-ikasmes)**: Manufacturing Execution System (MES).
-*   **[⚙️ Fabricación](https://github.com/Tknika-SCLF/sclf-manufacturing-processes)**: Definición de procesos industriales.
-*   **[🦾 Robótica Móvil](https://github.com/Tknika-SCLF/sclf-mobile-robotics)**: Integración de robots móviles en procesos.
-*   **[👁️ Visión Artificial](https://github.com/Tknika-SCLF/sclf-computer-vision)**: Procesamiento de imagen y detección por IA.
-*   **[🧊 Sistema XPlanar](https://github.com/Tknika-SCLF/sclf-xplanar)**: Sistema de transporte magnético inteligente.
+
+- 📋 [BOM Registry](https://github.com/Tknika-SCLF/sclf-bom-registry)  
+- 🏭 [IkasMES](https://github.com/Tknika-SCLF/sclf-ikasmes)  
+- ⚙️ [Manufacturing Processes](https://github.com/Tknika-SCLF/sclf-manufacturing-processes)  
+- 🦾 [Mobile Robotics](https://github.com/Tknika-SCLF/sclf-mobile-robotics)  
+- 👁️ [Computer Vision](https://github.com/Tknika-SCLF/sclf-computer-vision)  
+- 🧊 [XPlanar](https://github.com/Tknika-SCLF/sclf-xplanar)  
+
+---
 
 ### 📚 Formación
-*   **[📖 Contenido Educativo](https://github.com/Tknika-SCLF/sclf-educational-content)**: Material didáctico y tutoriales.
-*   **[🏠 Hub de Proyectos](https://github.com/Tknika-SCLF/sclf-tknika-project-hub)**: Centro de coordinación de Tknika.
+
+- 📖 [Educational Content](https://github.com/Tknika-SCLF/sclf-educational-content)  
+- 🏠 [Project Hub](https://github.com/Tknika-SCLF/sclf-tknika-project-hub)  
+
+---
 
 ### ✅ Estándares
-*   **[🛡️ Calidad](https://github.com/Tknika-SCLF/sclf-quality)**: Control de calidad y regulaciones.
-*   **[📄 Plantillas](https://github.com/Tknika-SCLF/sclf-templates)**: Plantillas de diseño y documentación.
+
+- 🛡️ [Quality](https://github.com/Tknika-SCLF/sclf-quality)  
+- 📄 [Templates](https://github.com/Tknika-SCLF/sclf-templates)  
 
 ---
 
-## 📥 Configuración del Entorno
+## 🚀 Cómo empezar
 
-Para comenzar a trabajar con el ecosistema completo, clona este repositorio con el flag `--recursive`:
+Para saber cómo empezar a trabajar, consulta nuestra **[🌟 Guía de Onboarding](docs/onboarding.es.md)**:
 
-```powershell
-git clone --recursive https://github.com/Tknika-SCLF/SCLF-Meta-Workspace.git
+```bash
+mkdir SCLF
+cd SCLF
+
+git clone git@github.com:Tknika-SCLF/sclf-drone.git
+git clone git@github.com:Tknika-SCLF/sclf-gripper.git
+git clone git@github.com:Tknika-SCLF/sclf-computer-vision.git
+# añade los repos que necesites
 ```
-
----
-
-<div align="center">
-  <sub>Desarrollado por <b>Antigravity AI</b> para el equipo <b>AiotR</b></sub>
-</div>
