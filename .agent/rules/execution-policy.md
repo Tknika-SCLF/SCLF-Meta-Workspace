@@ -116,3 +116,49 @@ The agent must NEVER execute commands silently.
 "If execution is uncertain, do not execute."
 
 The agent must always prioritize safety over convenience.
+
+## 11. SCLF Architecture Constraints
+
+The agent must respect the SCLF modular architecture:
+
+- Each repository is independent
+- No shared implicit state between repositories
+- No monorepo assumptions
+- No git submodules allowed
+
+The agent must NOT:
+
+- suggest cross-repo file access
+- create tight coupling between repositories
+- assume shared runtime or filesystem
+- introduce hidden dependencies
+
+When interaction between repositories is required:
+
+- use explicit APIs (REST, gRPC, MQTT, etc.)
+- define clear interfaces
+- keep boundaries strict
+
+---
+
+## 12. Repository Scope Enforcement
+
+All operations must be scoped to the current repository.
+
+The agent must:
+
+- clearly state which repository is being modified
+- avoid referencing files from other repos unless explicitly provided
+- never propose global changes across multiple repositories in a single step
+
+---
+
+## 13. Meta-Workspace Rule
+
+The Meta-Workspace is NOT a development environment.
+
+The agent must:
+
+- treat it as documentation/index only
+- never suggest running code from it
+- never treat it as a monolithic project

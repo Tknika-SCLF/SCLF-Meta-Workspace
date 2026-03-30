@@ -50,7 +50,7 @@ SCLF is:
 
 ---
 
-### 📊 Process
+### 📊 Process technologies
 
 - 📋 [BOM Registry](https://github.com/Tknika-SCLF/sclf-bom-registry)  
 - 🏭 [IkasMES](https://github.com/Tknika-SCLF/sclf-ikasmes)  
@@ -61,8 +61,7 @@ SCLF is:
 
 ---
 
-### 📚 Education
-
+### 📚 Educational platform
 - 📖 [Educational Content](https://github.com/Tknika-SCLF/sclf-educational-content)  
 - 🏠 [Project Hub](https://github.com/Tknika-SCLF/sclf-tknika-project-hub)  
 
