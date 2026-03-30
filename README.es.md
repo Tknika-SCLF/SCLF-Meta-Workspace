@@ -50,7 +50,7 @@ SCLF es un sistema:
 
 ---
 
-### 📊 Proceso
+### 📊 Tecnologías de proceso
 
 - 📋 [BOM Registry](https://github.com/Tknika-SCLF/sclf-bom-registry)  
 - 🏭 [IkasMES](https://github.com/Tknika-SCLF/sclf-ikasmes)  
@@ -61,8 +61,7 @@ SCLF es un sistema:
 
 ---
 
-### 📚 Formación
-
+### 📚 Plataforma de formación
 - 📖 [Educational Content](https://github.com/Tknika-SCLF/sclf-educational-content)  
 - 🏠 [Project Hub](https://github.com/Tknika-SCLF/sclf-tknika-project-hub)  
 
